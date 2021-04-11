@@ -48,6 +48,22 @@ h1{
     width: 310px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.origami{
+    position: relative;
+}
+.origami p{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+.origami:hover p{
+    opacity: 5;
+}
 
 
   
