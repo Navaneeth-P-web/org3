@@ -25,7 +25,7 @@ p{
   }
  
   .menu{
-    background-color: #006221;;
+    background-color: "blue";;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
